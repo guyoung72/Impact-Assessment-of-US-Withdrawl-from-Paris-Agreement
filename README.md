@@ -74,27 +74,40 @@ The announcement of withdrawal from the Paris Agreement significantly affected t
 ## 5-2. Shale Revolution
 Before the United States withdrew from the Paris Agreement, figure 1 shows that the United States' oil production increased between 2010 and 2015. We were curious about this increase and found that the Shale revolution happened in 2010. Also, the Shale revolution first started in the United States. Other countries had different technical improvements than the United States. Therefore, we used synthetic control to check the effect of the Shale revolution on the United States' oil production. As shown in figure 5, two graphs are closely located before 2010 and observed data significantly increased after 2010. Figure 6 also indicates that the difference between observed and synthetic United States is close to 0 and increases after 2010. This graph suggests that the Shale revolution affected U.S. oil production.
 
- 
-<Figure 4> Observed United States oil production and Controlled United State oil production
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79275984/221072640-86951554-e531-413a-89cd-9930a7ec9166.png" width="510"><br>
 
- 
-<Figure 5> Difference between observed data and synthetic controlled data
+<br><p align="center">**<Figure 4> Observed United States oil production and Controlled United State oil production**<br><br><br>
 
-<br><br>In this second study, the United Kingdom (weight = 0.58) and South Africa (weight = 0.42) are two countries mainly weighted to make synthetic United States. The oil production in 2000 (weight = 0.41) is the most weighted variable. Using the weighting values in Table 4, we made the synthetic United States in Table 5. Some covariates of the donor sample are distinguished from synthetic United States covariates.
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79275984/221072829-a7643aa8-cfa2-42c3-8f66-dcbd6de1f903.png" width="490"><br>
 
- 
-<Table 4> Weights of each country
+<br><p align="center">**<Figure 5> Difference between observed data and synthetic controlled data**<br><br><br>
 
+<br><br>In this second attempt, the United Kingdom (weight = 0.58) and South Africa (weight = 0.42) are two countries mainly weighted to make synthetic United States. The oil production in 2000 (weight = 0.41) is the most weighted variable. Using the weighting values in Table 4, we made the synthetic United States in Table 5. Some covariates of the donor sample are distinguished from synthetic United States covariates.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79275984/221073062-80bd3303-86a5-4cae-805e-8accdd9ff1ec.png" width="410"><br>
+
+<br><p align="center">**<Table 4> Weights of each country**<br><br><br>
  
-<Table 5> Balance table, Shale revolution
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79275984/221073198-22dd3fe4-3c53-4fb3-a9c9-48a8498eaa3a.png" width="410"><br>
+
+<br><p align="center">**<Table 5> Balance table, Shale revolution**<br><br><br> 
+
 We did a placebo test to check that the Shale revolution affected the United States' oil production. Figure 6 shows that U.S. oil production increased much higher than other control units after 2010. There is a country where the oil production level increased after 2010. However, most control units’ graphs are around zero and below zero. We conclude that the Shale revolution in the U.S. significantly affected the U.S. oil production level after 2010. 
 Furthermore, the MSPE ratio of the U.S. (MSPE = 101.18) is much higher than other countries. This MSPE value indicated that the Shale revolution affected U.S. oil production. The second highest country is South Africa (MSPE = 62.57). However, Table 6 indicates that there are no countries where Fisher’s exact P-value is less than a 5% significance level. Even though Saudi Arabia shows a high MSPE value, the U.S. MSPE is much higher than its value. Donor pool data in table 6 shows no countries in which Fisher’s exact p-value is less than a 5% significance level.
 
- 
-<Figure 6> Placebo check
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79275984/221073392-5e6a21e8-d3c7-47c8-b0ff-ebbb09f82d02.png" width="610"><br>
 
+<br><p align="center">**<Figure 6> Placebo check**<br><br><br>
  
-<Table 6> Donor pool table, Shale revolution
+<p align="center">
+<img src="https://user-images.githubusercontent.com/79275984/221073597-fdd724ae-2acd-4f02-ae3a-2f2d9576789f.png" width="710"><br>
+
+<br><p align="center">**<Table 6> Donor pool table, Shale revolution**<br><br><br>
 
 ## 6. Discussion
 When we set our treatment period to when Trump declared withdrawal from the Paris Agreement (2017), our synthetic control did not show the most ideal results. As seen in Figure 2, differences between observed data and synthetic controlled data were not near zero. However, the placebo test and MSPE results suggested that the withdrawal from the Paris agreement affected the United States' oil production level. Oil production level started to increase in 2010. We found the Shale revolution happened in the U.S. in 2010. So, resetting our treatment period to the Shale revolution (2010), we got a more ideally looking graph. The revised difference graph is seen in Figure 7, and the lines are closer to zero. Our revised synthetic control also exhibited better placebo test results (see Figures 4 and 9), where we can see much straighter lines on the revised version’s placebo test graph. Therefore, we conclude that both events significantly increased the United States' oil production.
