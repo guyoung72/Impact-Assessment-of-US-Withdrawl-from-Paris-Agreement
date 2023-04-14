@@ -1,4 +1,5 @@
 # Impact Assessment of US Withdrawl from Paris Agreement and Shale Revolution
+By Guyoung Kim, Dae-Sung Kim, Declan Davis
 
 ## Table of Contents
 ┌--**0. Abstract**<br>
